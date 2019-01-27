@@ -1,0 +1,32 @@
+{
+    "inViewPattern": {
+        "prefix": "inView",
+        "scope": "javascript",
+        "body": [
+            "\\$(${1:selector}).inView({",
+            "    in: function () {",
+            "        ${2:// your code}",
+            "    },",
+            "    out: function () {",
+            "        ${3:// your code}",
+            "    }",
+            "});$0"
+        ],
+        "description": "inView jQuery plugin pattern"
+    },
+    "inViewMethod": {
+        "prefix": ".inView(",
+        "scope": "javascript",
+        "body": [
+            ".inView({",
+            "    in: function () {",
+            "        ${1:// your code}",
+            "    },",
+            "    out: function () {",
+            "        ${2:// your code}",
+            "    }",
+            "});$0"
+        ],
+        "description": "inView jQuery plugin"
+    }
+}
